@@ -1,0 +1,153 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #414141;
+  box-shadow: 6px 28px 46px -6px #1e1e1e;
+}
+
+.card h2 {
+  word-break: break-all;
+}
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-trash {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #d40e0e,
+    #ff6262,
+    #f71b1b,
+    #ffb395
+  );
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-trash:hover {
+  background-image: linear-gradient(
+    to right,
+    #d40e0e,
+    #ff6262,
+    #f71b1b,
+    #ffb395
+  );
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-trash svg {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-trash:hover svg {
+  scale: 1.1;
+}
+
+.btn-checked {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #23659b,
+    #488afd,
+    #1bafe0,
+    #2761be
+  );
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-checked:hover {
+  background-image: linear-gradient(
+    to right,
+    #23659b,
+    #488afd,
+    #1bafe0,
+    #2761be
+  );
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-checked svg {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-checked:hover svg {
+  scale: 1.1;
+}
+
+.btn-retorn {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #7a41b3,
+    #c78af3,
+    #bc7fe7,
+    #7232b3
+  );
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-retorn:hover {
+  background-image: linear-gradient(
+    to right,
+    #7a41b3,
+    #c78af3,
+    #bc7fe7,
+    #7232b3
+  );
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-retorn svg {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-retorn:hover svg {
+  scale: 1.1;
+  transform: rotate(-180deg);
+}
+
+.done {
+  opacity: 0.5;
+}

@@ -1,0 +1,69 @@
+.modal-self {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 30px 10px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #414141;
+  box-shadow: 6px 28px 46px -6px #000;
+  transform: translate(-50%, -50%);
+}
+
+.modal::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #686868, #000000 40%);
+  z-index: -2;
+}
+
+.modal::after {
+  content: "";
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #414141, #1d1d20);
+  transition: box-shadow 0.3s ease;
+  z-index: -1;
+}
+
+.modal h2 {
+  font-size: 1.6rem;
+}
+
+.modal .close-circle {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 1.5rem;
+  color: #ee3737;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal .close-circle:hover {
+  color: #f82222;
+  scale: 1.05;
+  transform: rotate(90deg);
+}
+
+.modal .notebook {
+  font-size: 3rem;
+}
