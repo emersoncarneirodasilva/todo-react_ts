@@ -1,6 +1,6 @@
 # Todo React.ts
 
-O Todo React.ts é um projeto simples de um app de lista de afazeres, onde é possível escrever tarefas e consuntá-las posteriormente.
+O Todo React.ts é um projeto simples de um app de lista de afazeres, onde é possível escrever tarefas e consultá-las posteriormente.
 
 O projeto foi construído com React/Vite, React-icons, TypeScript. Foram abordados conceitos como tipagem (TypeScript), hooks (useState e UseEffect do React), localsorage (persistência de dados), components (React), modal, entre outros.
 
